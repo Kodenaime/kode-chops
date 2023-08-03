@@ -29,6 +29,13 @@ nav {
   justify-content: space-between;
   min-height: 90px;
 }
+
+nav h2 {
+  font-size: 2rem;
+  color: orangered;
+}
+
+
 .navbar-menu-container {
   display: none;
 }
@@ -207,20 +214,33 @@ nav {
   display: flex;
   margin-top: 10rem;
 }
+
+.footer-wrapper span:hover {
+  color: orangered;
+  transform: scale(1.2);
+}
+
+
 .footer-logo-container {
   max-width: 110px;
 }
 .footer-icons {
   margin-top: 2.5rem;
+  display: flex;
 }
+
+.footer-icons h6:hover {
+  
+  transform: scale(1.2);
+}
+
+
 .footer-icons svg {
   font-size: 1.5rem;
   margin-right: 1.25rem;
   color: #585858;
 }
-/* .footer-section-one {
-  border: 2px solid blue;
-} */
+
 .footer-section-two {
   flex: 1;
   display: flex;
